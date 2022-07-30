@@ -1,0 +1,14 @@
+{
+  "name": "teste-e2e",
+  "version": "1.0.0",
+  "description": "teste do site demo tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "caio",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
