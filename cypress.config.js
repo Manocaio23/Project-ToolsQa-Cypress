@@ -7,7 +7,7 @@ e2e: {
 
 }, 
 baseUrl:"https://demoqa.com/" }, 
-viewportWidth: 1400, 
-viewportHeight: 900, 
+viewportWidth: 1920, 
+viewportHeight: 1080, 
 
 });
