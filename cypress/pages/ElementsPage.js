@@ -32,6 +32,13 @@ class ElementsPage{
 
         cy.get('.css-1hwfws3').eq(2).click()
         cy.contains('Panipat').click()
+
+        cy.get('#subjectsContainer').type('english{enter}')
+      
+        //upload
+        const path='o.jpg';
+        cy.get('#uploadPicture').attachFile(path);
+
     }
 
     contemText(texto){

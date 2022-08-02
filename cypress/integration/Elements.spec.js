@@ -6,8 +6,6 @@ import ElementsFactory from '../factories/ElementsFactory'
 describe('teste', () => {
 
     it.skip('visitar site', function() {
-        
-
         teste.go()
         teste.clicarForms()
 
