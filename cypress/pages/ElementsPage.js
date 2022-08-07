@@ -39,10 +39,15 @@ class ElementsPage{
         const path='o.jpg';
         cy.get('#uploadPicture').attachFile(path);
 
+        //data
+        cy.get('#dateOfBirthInput').click()
+        
+        cy.get('#submit').click()
+
     }
 
-    contemText(texto){
-        cy.contains('div[class="practice-form-wrapper"] h5',texto).should('be.visible')
+    contemText(element,texto){
+        cy.contains(element,texto).should('be.visible')
     }
 }
 
