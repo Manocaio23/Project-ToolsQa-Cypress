@@ -49,6 +49,10 @@ class ElementsPage{
     contemText(element,texto){
         cy.contains(element,texto).should('be.visible')
     }
+
+    assertiva(){
+        
+    }
 }
 
 export default new ElementsPage;
